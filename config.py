@@ -1,3 +1,3 @@
 
-username=toto
-password=123
+username='toto'
+password='123'
