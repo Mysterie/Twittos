@@ -1,1 +1,2 @@
-bla blo
+
+print 'lol'
