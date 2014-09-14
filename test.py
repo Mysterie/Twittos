@@ -1,2 +1,24 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*
+import session
+import config
 
-print 'lol2'
+
+
+user1 = session.Session()
+user1.connect(config.username,config.password)
+
+
+
+
+
+user1.deconnect()
+
+
+
+
+
+
+
+
+

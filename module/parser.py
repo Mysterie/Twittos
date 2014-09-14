@@ -1,6 +1,4 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*
-
-username="toto"
-password="124"
-
+from bs4 import BeautifulSoup
+import web
