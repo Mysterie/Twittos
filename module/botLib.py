@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*
 
 #Description of the file :
-#This file contains various functions wichh are used by the Twittos module
+#This file contains utilities functions used by the Twittos module
 
 import sys
 
