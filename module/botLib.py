@@ -1,15 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*
 
-
 #Description of the file :
-#This file contains various functions whcih are use by the Twittos module
+#This file contains various functions wichh are used by the Twittos module
+
+import sys
 
 
-
-#todo
-#return 2 or 3
+#return python version (2, 3 ...)
 def getPythonVersion():
-	
-	return 3
-
+    return int(sys.version_info[0])
