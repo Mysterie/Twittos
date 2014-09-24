@@ -14,6 +14,8 @@ elif pyVersion == 3:
 else :
 	print("Python version not supported")
 	sys.exit(0)
+		
+# Somewhere we must take care of the list and the htag features 
 	
 class Session(threading.Thread):
 
@@ -25,16 +27,33 @@ class Session(threading.Thread):
 	
 	#todo
 	def connect(self,username,password):
-	
+		pass
 	
 	#todo
 	def deconnect(self):
+		pass
 	
+	#todo
+	def getFollowers(self):
+		pass
 	
+	#todo
+	def getFollowing(self):
+		pass
 	
+	#todo
+	def addFollowing(self,following):
+		pass
 	
-
-
+	#todo
+	def delFollowing(self,following):
+		pass
+	
+	#todo
+	# Location, birth, little description ...
+	def getInfoAcount(self):
+		pass
+	
 
 
 
