@@ -26,35 +26,25 @@ class Session(threading.Thread):
 		self.timeout = timeout
 	
 	#todo
-	def connect(self,username,password):
+	def sessionOn(self):
 		pass
 	
 	#todo
-	def deconnect(self):
+	def sessionOff(self):
+		pass
+		
+	#todo
+	def clearSession(self):
 		pass
 	
 	#todo
-	def getFollowers(self):
+	def saveSession(self,path):
 		pass
-	
-	#todo
-	def getFollowing(self):
+		
+	#todo	
+	def restoreSession(self,path):
 		pass
-	
-	#todo
-	def addFollowing(self,following):
-		pass
-	
-	#todo
-	def delFollowing(self,following):
-		pass
-	
-	#todo
-	# Location, birth, little description ...
-	def getInfoAcount(self):
-		pass
-	
-
+		
 
 
 
